@@ -3,7 +3,7 @@ import {Component, Input, OnInit} from 'angular2/core'
 @Component({
   selector: 'progress-arc',
 	directives: [],
-  templateUrl: 'build/components/progress_arc/progress_arc.html'
+  templateUrl: 'progress_arc.html'
 })
 
 export class ProgressArc  implements OnInit {

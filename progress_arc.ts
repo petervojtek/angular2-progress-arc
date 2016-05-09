@@ -12,7 +12,7 @@ export class ProgressArc  implements OnInit {
   @Input() strokeColor:string = 'black'
   @Input() backgroundColor:string = null
   @Input() counterClockwise:boolean = false
-  @Input() progress:number = 0.0
+  @Input() progress:number = 0.0  // meaningful range: <0.0, 1.0>
   
   private strokeWidthCapped: number
   private radius: number

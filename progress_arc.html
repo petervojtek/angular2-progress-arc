@@ -1,0 +1,20 @@
+<svg [attr.width]="size" [attr.height]="size">
+    <circle class="ngpa-background" fill="none" 
+        [style.display]="backgroundColor" 
+        [attr.cx]="size/2" 
+        [attr.cy]="size/2" 
+        [attr.r]="radius" 
+        [attr.stroke]="backgroundColor" 
+        [attr.stroke-width]="strokeWidthCapped"
+    />
+    <circle class="ngpa-progress" fill="none" 
+        [attr.cx]="size/2" 
+        [attr.cy]="size/2" 
+        [attr.r]="radius" 
+        [attr.stroke]="strokeColor" 
+        [attr.stroke-width]="strokeWidthCapped"
+        [attr.stroke-dasharray]="circumference"
+        [attr.stroke-dashoffset]="(1 - progress) * circumference"
+        [attr.transform]="transform()"
+    />
+</svg>

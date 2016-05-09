@@ -1,6 +1,6 @@
 Shameless clone of [angular-progress-arc](https://github.com/mathewbyrne/angular-progress-arc) rewritten to Angular 2.
 
-Keywords: progress bar, circular, svg, arc, round
+Keywords: progress bar, circular, svg, arc, round, typescript, angular 2
 
 ### Example Usage
 
